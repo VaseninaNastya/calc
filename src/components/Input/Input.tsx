@@ -14,6 +14,7 @@ const Input: FC<IInput> = ({ inputValue, setInputValue }) => {
       target.value.match(/([0-9*%c√×+,.\-/])*/g)?.[0] === target.value;
     if (res) setInputValue(target.value);
     target.focus();
+    // itswork
   };
 
   return (
